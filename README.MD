@@ -1,7 +1,12 @@
-# Flask API serving MongoDB
+# Python Crud
 
+This project aims to serve a MongoDB eith a Flask API CRUD and deploy it.
 
-## Setting up environment with VM
+## Tools
+
+* It is necessary to get Postman in Ubuntu Software, to test the API routes
+
+## Setting up environment with Virtualenv
 
 * Installing VM
 
