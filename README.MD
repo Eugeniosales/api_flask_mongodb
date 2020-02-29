@@ -31,31 +31,22 @@ $ sudo pip3 install -r requirements.txt
 
 ### Setting up MongoDB
 
-* Download MongoDB
+* Download MongoDB Shell
 
-```bash
-$ sudo apt-get install mongodb
-```
+    * Follow: <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu-tarball/">Install mongo shell</a>
 
-* Initializing shell
+### Initializing Mongo shell
 
-```bash
-$ sudo servive mongodb start
-```
+* Development
 
 ```bash
 $ mongo
 ```
 
-* Creating User
+* Production
 
-```mongodb
-> db.createUser({
-    user: "eugenio",
-    pwd: "mateus1234",
-    roles: ["readWrite", "dbAdmin"]
-});
-```
+    * To initialize the Mongo Prod environment, it takes to get the Atlas connection
+
 
 ### Creating Database
 
@@ -132,4 +123,7 @@ $ mongo
 
 ## Referências
 
-* <a href="https://docs.mongodb.com/manual/reference/method/db.createUser/">Mongo Db create user</a>
+* <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu-tarball/">Install mongo shell</a>
+* <a href="https://flask.palletsprojects.com/en/1.1.x/quickstart/#">Flask quickstart</a>
+* <a href="https://www.w3schools.com/python/python_mongodb_getstarted.asp">Pymongo Driver</a>
+* <a href="https://flask-pymongo.readthedocs.io/en/latest/">Alternative syntax - Flask Pymongo driver</a>
