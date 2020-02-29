@@ -51,7 +51,7 @@ $ mongo
 
 ```mongodb
 > db.createUser({
-    user: "user",
+    user: "eugenio",
     pwd: "mateus1234",
     roles: ["readWrite", "dbAdmin"]
 });
@@ -63,6 +63,12 @@ $ mongo
 
 ```mongodb
 > use users;
+```
+
+* Removing a database
+
+```mongodb
+> db.dropDatabase();
 ```
 
 * Creating collection
