@@ -1,4 +1,4 @@
-# Flask API serving MongoDB
+# Flask REST API serving MongoDB
 
 
 ## Setting environment with VM
