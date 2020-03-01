@@ -4,7 +4,15 @@ This project aims to serve a MongoDB eith a Flask REST API CRUD and deploy it on
 
 ## Tools
 
-* It is necessary to get Postman in Ubuntu Software, to test the API routes
+> It is necessary to get Postman in Ubuntu Software, to test the API routes
+
+## Workflow
+
+1. Install Postman, MongoDB Shell and virtualenv
+2. Create MongoDB database
+3. Connect to Atlas
+4. Build a Flask Rest API
+5. Deploy to Heroku
 
 ## Setting up environment with Virtualenv
 
