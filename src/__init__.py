@@ -19,6 +19,11 @@ database = pymongo.MongoClient("mongodb+srv://eugenio:mateus1234@cluster0-8jxzv.
 users = database["users"]["customers"]
 
 #Get all users from DB
+@app.route('/', methods=['GET'])
+def index():    
+    return jsonify({"message":"ok"})
+
+#Get all users from DB
 @app.route('/api/users', methods=['GET'])
 def get_users():
     response = []
