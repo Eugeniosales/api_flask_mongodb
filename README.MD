@@ -1,4 +1,8 @@
-# Python CRUD
+<p align="center">
+    <img src="./images/pymongo.jpg" style="heigth:450px;width:470px"></img>
+</p>
+
+<h1 align="center">Python CRUD</h1>
 
 This project aims to serve a MongoDB eith a Flask REST API CRUD and deploy it on MongoDB Atlas and Heroku.
 
