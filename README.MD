@@ -1,6 +1,6 @@
-# Python Crud
+# Python CRUD
 
-This project aims to serve a MongoDB eith a Flask API CRUD and deploy it.
+This project aims to serve a MongoDB eith a Flask REST API CRUD and deploy it on MongoDB Atlas and Heroku.
 
 ## Tools
 
@@ -128,6 +128,7 @@ $ mongo
 
 ## Referências
 
+* <a href="https://www.mongodb.com/cloud/atlas">Atlas Cloud for Mongo DB</a>
 * <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu-tarball/">Install mongo shell</a>
 * <a href="https://flask.palletsprojects.com/en/1.1.x/quickstart/#">Flask quickstart</a>
 * <a href="https://www.w3schools.com/python/python_mongodb_getstarted.asp">Pymongo Driver</a>
