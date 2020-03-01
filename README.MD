@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./images/pymongo.jpg" style="heigth:450px;width:470px"></img>
+    <img src="./images/pymongo.jpg" heigth="450px" width="470px""></img>
 </p>
 
 <h1 align="center">Python CRUD</h1>
