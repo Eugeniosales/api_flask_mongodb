@@ -11,7 +11,7 @@ CORS(app)
 import pymongo
 
 # Production Environment
-database = pymongo.MongoClient("mongodb+srv://eugenio:mateus1234@cluster0-8jxzv.mongodb.net/test?retryWrites=true&w=majority")
+database = pymongo.MongoClient();
 
 # Development Environment
 #database = pymongo.MongoClient("mongodb://localhost:27017/")
